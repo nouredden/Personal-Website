@@ -12,7 +12,7 @@
 :root{
     --bg-color:#fff;
     --snd-bg-color: #d5fdf9;
-    --text-color:#000;
+    --text-color:#0d120d;
     --main-color:#054827;
 }
 html{
@@ -58,7 +58,17 @@ margin-left: 3rem;
 font-weight: 700;
 }
 
+.navbar a:hover,
+.navbar a.active{
+color: var(--text-color);
+}
 
+#menu-icon{
+    font-size: 2.8rem;
+    color: var(--bg-color);
+    cursor: pointer;
+    display: none;
+}
 /* .hero{
     position: relative;
     width: 100%;
@@ -101,7 +111,7 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 span{
-    color: #a60e0e;
+    color:var(--main-color);
 }
 .detel p{
     color: #555;
@@ -109,7 +119,7 @@ span{
 }
 
 .detel a{
-    background: #a60e0e;
+    background: var(--main-color);
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
@@ -120,7 +130,7 @@ span{
 }
 
 .detel a:hover{
-    background: #b41919;
+    background: var(--text-color);
 }
 .images{
     width: 45%;
