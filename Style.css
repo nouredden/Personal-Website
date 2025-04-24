@@ -35,10 +35,10 @@ body{
     height: 100vh;
     background-image: url("images/BG.jpg");
 }
-/* section{
+section{
     min-height: 100vh;
-    padding: 10rem 9%;
-} */
+    padding: 4rem;
+}
 .header{
     position: fixed;
     width: 100%;
@@ -262,3 +262,47 @@ span{
     font-style: 1.6rem;
     margin: 2rem 0 3rem;
 }
+/* End of About Section */
+
+/* Service Section start */
+
+.services h2{
+    margin-bottom: 4rem;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background: var(--snd-bg-color);
+    padding: 3.8rem 1.6rem 4.2rem;
+    border-radius: 1.8rem;
+    text-align: center;
+    border: 0.3rem solid var(--bg-color);
+    transition: 0.3s ease;
+}
+
+.services-container .services-box:hover{
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.services-box i{
+    font-size: 5rem;
+    color: var(--main-color);
+}
+
+.services-box h3{
+    font-size: 2rem;
+}
+
+.services-box p{
+    font-size: 1.2rem;
+}
+
