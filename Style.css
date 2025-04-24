@@ -306,3 +306,32 @@ span{
     font-size: 1.2rem;
 }
 
+/* End of services section code */
+
+/* scroll to top */
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    background-color: var(--text-color);
+    color: var(--snd-bg-color);
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.4s;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color:var(--main-color);
+  }
+  
+  #scrollToTopBtn.show {
+    opacity: 1;
+  }
+/* End of scroll to top   */
