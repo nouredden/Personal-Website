@@ -91,7 +91,8 @@ color: var(--text-color);
 } */
 
 .images img {
-    width: 24vw;
+    /* width: 24vw;
+    height: 24vh; */
     cursor: pointer;
     animation: floatImage 4s ease-in-out infinite;
     transition: o.4s ease;
