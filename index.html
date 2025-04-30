@@ -12,7 +12,7 @@
 <!-- Hero section code Start-->
     <div class="hero">
         <header class="header">
-            <a href="#" class="logo">NOUR EDDEN</a>
+            <a href="#" class="logo" id="logo">NOUR EDDEN</a>
             <i class='bx bx-menu' id="menu-icon"></i>
             <nav class="navbar">
     <a href="#">Portfolio</a>
@@ -20,20 +20,25 @@
     <a href="#testimonial">Recommendations</a>
     <a href="#services">Services</a>
     <a href="#">Hire Me</a>
-    <a href="#">Contact Me</a>
+    <a href="#contact">Contact Me</a>
+    <!-- <select id="language-select" onchange="changeLanguage()">
+        <option value="en">English</option>
+        <option value="ar">العربية</option>
+    </select> -->
         </nav>
     </header>
     <div class="detel">
-        <h1>I'm NOUR EDDEN <span>ALREZ</span></h1>
+        <h1 id="my_name">I'm NOUR EDDEN <span id="lastname">ALREZ</span></h1>
         <P>This is my official Portfolio website to showes all 
             <br> Details and work experience web development
         </P>
         <a href="Documents/Nour Edden Alrez.pdf" class="btn">Download CV</a>
         <div class="social-media">
-            <a href="#"><i class='bx bxl-linkedin' ></i></a>
-            <a href="#"><i class='bx bxl-github' ></i></a>
-            <a href="#"><i class='bx bxl-facebook' ></i></a>
-            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.linkedin.com/in/nour-edden-alrez/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/nouredden"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.facebook.com/nouraldin.alrz"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/noureddenrz/"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://t.me/noureddenrz"><i class='bx bxl-telegram' ></i></a>
         </div>
     </div>
     <div class="images">
@@ -76,7 +81,7 @@
             <a href="#" class="btn">Read more</a>
         </div>
         <div class="about-image">
-            <img src="images/PersonalP.png" alt="My Photo">
+            <img src="images/about.png" alt="My Photo">
         </div>
     </section>
     <section class="services" id="services">
@@ -200,9 +205,41 @@
             </div>
         </div>
      </section>
+<!-- Contact section code -->
+ <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
 
+    <form action="#">
+        <div class="input-box">
+            <input type="text" name="Full name" id="Fullname" placeholder="Full name">
+            <input type="email" name="email" id="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" name="number" id="number" placeholder="Phone number">
+            <input type="text" name="Subject" id="Subject" placeholder="Subject">
+        </div>
+        <textarea name="message" id="message" cols="30" rows="8" placeholder="Your message"></textarea>
+        <input type="submit" value="Send message" class="btn">
+    </form>
+ </section>
+ <!-- End of contact Section Code -->
+
+ 
     <button id="scrollToTopBtn" title="Go to top"><i class="bx bxs-chevron-up"></i></button>
-
+    <!-- footer section code -->
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/nour-edden-alrez/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/nouredden"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.facebook.com/nouraldin.alrz"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/noureddenrz/"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://t.me/noureddenrz"><i class='bx bxl-telegram' ></i></a>
+        </div>
+        <p class="copyright">
+            &copy; 2025 NOUR EDDEN ALREZ. All rights reserved.
+        </p>
+    </footer>
+    <!-- footer section end     -->
   <script src="script.js"></script>
 </body>
 </html>
