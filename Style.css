@@ -12,11 +12,7 @@
 :root{
     --bg-color:#fff;
     --snd-bg-color: #dfdfc8;
-    /* --snd-bg-color: #f7fcf5; */
-    /* --text-color:#090603; */
     --text-color:#4a3e30;
-    /* --main-color:#054827; */
-    /* --main-color:#004418; */
     --main-color:#315a39;
 }
 html{
